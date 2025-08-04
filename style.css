@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: rgb(10, 89, 137);
+}
+
+body {
+    display: grid;
+    place-content: center;
+    background-color: var(--bg-color);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 450px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 11px;
+}
+
+.card p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 8px;
+}
+
+input[type="text"] {
+    font-size: 1.5rem;
+    padding: 8px;
+    width: 100%;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
+
+.descricaoUsuario {
+    background-color: rgb(246, 246, 246);
+    padding: 10px;
+    border-radius: 11px;
+    
+}
