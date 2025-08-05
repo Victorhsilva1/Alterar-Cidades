@@ -17,7 +17,7 @@ document.getElementById('trocar-imagem').addEventListener('click', function() {
 
     const cidades = {
         'san andreas': {
-            src: 'img/andreas.jpg',
+            src: 'img/Andreas.jpg',
             alt: 'San Andreas, Colômbia',
             descricao: 'San Andreas - Colômbia'
         },
@@ -32,12 +32,12 @@ document.getElementById('trocar-imagem').addEventListener('click', function() {
             descricao: 'Forks - Estados Unidos'
         },
         'warwick': {
-            src: 'img/warwick.jpg',
+            src: 'img/Warwick.jpg',
             alt: 'Warwick, Inglaterra',
             descricao: 'Warwick - Inglaterra'
         },
         'willemstad': {
-            src: 'img/willemstad.jpg',
+            src: 'img/Willemstad.jpg',
             alt: 'Willemstad, Curaçao',
             descricao: 'Willemstad - Curaçao'
         }
